@@ -20,5 +20,6 @@
                         "covid": "covid_data.json",
                         "weather": "weather.json"
                 }
-        }
+        },
+	"logfile": "sys.log"
 }
