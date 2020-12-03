@@ -14,7 +14,7 @@ pip install pyttsx3 flask uk-covid-19
 
 # Configuration
 
-Covid planner is configured using a config.json file in your working directory.
+Covid planner is configured using a config.json file in your working directory. A sample config file exists called "sample_config.json"
 
 ## Format
 
