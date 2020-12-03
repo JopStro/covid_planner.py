@@ -1,0 +1,24 @@
+{
+	"api_keys": {
+		"newsapi": "",
+		"weatherapi": ""
+	},
+	"news":{
+		"queries":[
+			"coronavirus",
+			"covid-19"
+		]
+	},
+
+	"city_name": "auto",
+
+	"updates":{
+                "update_type": "page_reload|on_alarm|interval_secs|interval_mins|interval_hours|debug",
+                "interval": 60,
+		"debug paths": {
+                        "news": "news.json",
+                        "covid": "covid_data.json",
+                        "weather": "weather.json"
+                }
+        }
+}
