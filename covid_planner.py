@@ -19,9 +19,10 @@ notifs = []
 
 with open('config.json') as config_file:
     config = json.load(config_file)
-
-logging.basicConfig(level=logging.DEBUG, filename=config['logfile'])
-
+try:
+    logging.basicConfig(level=logging.DEBUG, filename=config['logfile'])
+except KeyError:
+    logging.basicConfig(level=logging.DEBUG, filename='sys.log')
 if config['city_name'] == 'auto':
     CITY = requests.get('https://ipapi.co/city').text
 else:
