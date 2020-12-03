@@ -3,9 +3,9 @@
 Covid planner is a python based alarm clock and news notification system that uses a web interface to schedule or view alarms and view notifications about the news and covid-19 cases in your area. Alarms give a text to speech briefing on covid-19 infections and the news or weather.
 
 # Module Dependencies
-pyttsx3
-flask
-uk-covid-19
+* pyttsx3
+* flask
+* uk-covid-19
 
 you can install these dependencies using the following command
 ```
