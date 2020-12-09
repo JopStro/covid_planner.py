@@ -52,7 +52,7 @@ The time interval for the interval update types.
 #### "debug paths"
 This is where the locations of debug data files are kept.
 
-#### "logfile"
+### "logfile"
 The path to the log file (defaults to sys.log)
 
 # Usage
